@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Booking</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="card">
+            <div class="row top">
+                <div class="col left">
+                    <h1>Where do you want to play?</h1>
+                    <div class="place">
+                        <input type="radio" name="location" id="location1" value="Bergen">
+                        <label for="location1">Bergen</label>
+                        <input type="radio" name="location" id="location2" value="Oslo">
+                        <label for="location2">Oslo</label>
+                    </div>
+                </div>
+                <div class="col right">
+                    <div class="icon">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="row bottom">
+                <h3>Choose the party size</h3>
+                <div class="icons">
+                    <div class="iconCard two">
+                        <div class="people">
+                            <i class="fa-regular fa-user"></i>
+                            <i class="fa-regular fa-user"></i>
+                        </div>
+                        <p>2 people</p>
+                    </div>
+                    <div class="iconCard four">
+                        <div class="people">
+                            <i class="fa-regular fa-user"></i>
+                            <i class="fa-regular fa-user"></i><br>
+                            <i class="fa-regular fa-user"></i>
+                            <i class="fa-regular fa-user"></i>
+                        </div>
+                        <p>4 people</p>
+                    </div>
+                    <div class="iconCard six">
+                        <div class="people">
+                            <i class="fa-regular fa-user"></i>
+                            <i class="fa-regular fa-user"></i>
+                            <i class="fa-regular fa-user"></i><br>
+                            <i class="fa-regular fa-user"></i>
+                            <i class="fa-regular fa-user"></i>
+                            <i class="fa-regular fa-user"></i>
+                        </div>
+                        <p>6 people</p>
+                    </div>
+                </div>
+                <div class="continue">
+                    <button>Continue</button>
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

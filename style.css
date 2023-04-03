@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: #eef0f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: 450px;
+    width: 300px;
+    border-radius: 12px;
+}
+
+.row {
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 0 0 12px 12px;
+}
+
+.top {
+    height: 35%;
+    background-color: #262143;
+    border-radius: 12px 12px 0 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.bottom {
+    background-color: #ffffff;
+    height: 65%;
+}
+
+.col {
+    height: 100%;
+}
+
+.left {
+    width: 70%;
+    background-color: #262143;
+}
+
+.right {
+    width: 30%;
+    background-color: #262143;
+    display: flex;
+    justify-content: end;
+}
+
+h1 {
+    font-size: 1.2em;
+    color: white;
+    position: relative;
+    top: 10%;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #372d5c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon i {
+    color: #7d84ac;
+    font-size: 20px;
+}
+
+.place {
+    position: relative;
+    top: 20%;
+    color: white;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input[type="radio"] {
+    accent-color: #262143;
+    color: white;
+    height: 15px;
+    width: 15px;
+}
+
+h3 {
+    color: #262143;
+    font-size: 1.2em;
+    margin: 30px 20px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 50%;
+}
+
+.iconCard {
+    border: 1px solid rgb(187, 187, 187);
+    border-radius: 8px;
+    height: 60%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.iconCard p {
+    font-size: 0.8em;
+    color: #0d1959;
+}
+
+.people {
+    padding: 10px;
+    height: 80%;
+}
+
+.continue {
+    width: 80%;
+    background-color: #d61f61;
+    height: fit-content;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    left: 10%;
+    border-radius: 12px;
+    box-shadow: -5px 10px 10px 0px #e8719c;
+    cursor: pointer;
+}
+
+.continue i {
+    color: white;
+    position: relative;
+    top: 10%;
+    left: 10%;
+}
+
+button {
+    background-color: #d61f61;
+    border: none;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.clicked p {
+    color: white;
+}
+
+.clicked {
+    background-color: #0d1959;
+    color: white;
+}
